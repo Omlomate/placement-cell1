@@ -27,5 +27,5 @@ Node.Js, MongoDB, Express, Passport, Fast-csv, ejs
 2) Create a .env file in config directory of this project
 3) Write environment variables in .env file:
 
-      SECRET=`Anything`
-      MONGO_URL=mongodb://localhost:27017/`DB Name`
+-SECRET=`Anything`
+-MONGO_URL=mongodb://localhost:27017/`DB Name`
