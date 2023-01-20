@@ -1,10 +1,7 @@
 const mongoose = require('mongoose');
-const dotenv = require('dotenv').config({ path: 'config/.env' });
+// const dotenv = require('dotenv').config({ path: 'config/.env' });
 
-mongoose.connect(process.env.MONGO_URL, {
-  useNewUrlParser: true,
-  useUnifiedTopology: true,
-});
+mongoose.connect('mongodb+srv://admin-sameer:16122000@cluster0.flijlqq.mongodb.net/placementDB');
 
 const db = mongoose.connection;
 
